@@ -1,7 +1,10 @@
 # depslib dependency file v1.0
-1567139957 source:c:\users\m41l0n brun0\dropbox\github\controle_de_materias\main.c
+1567140803 source:c:\users\m41l0n brun0\dropbox\github\controle_de_materias\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<locale.h>
+	"disciplina.h"
+
+1567139347 c:\users\m41l0n brun0\dropbox\github\controle_de_materias\disciplina.h
 

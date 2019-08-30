@@ -41,8 +41,8 @@ int menu(){
         case 1:
             return 0;
         case 2:
-            i = 1;
-            while(i == 1){
+            i = 0;
+            while(i == 0){
             i = disciplina();
             }
             return 0;
@@ -68,10 +68,9 @@ int disciplina(){
     printf("********************-- DISCIPLINAS --********************\n");
     printf("||-----------------------------------------------------||\n");
     printf("|| [1] - VER DISCIPLINA                                ||\n");
-    printf("|| [2] - EDITAR DISCIPLINA                             ||\n");
-    printf("|| [3] - ADICIONAR DISCIPLINA                          ||\n");
-    printf("|| [4] - REMOVER DISCIPLINA                            ||\n");
-    printf("|| [5] - VOLTAR                                        ||\n");
+    printf("|| [2] - ADICIONAR DISCIPLINA                          ||\n");
+    printf("|| [3] - REMOVER DISCIPLINA                            ||\n");
+    printf("|| [4] - VOLTAR                                        ||\n");
     printf("||-----------------------------------------------------||\n");
     printf("||*****************************************************||\n");
     printf("\n\n---> DIGITE UMA OPÇÃO:");
@@ -85,11 +84,9 @@ int disciplina(){
         case 3:
             return 0;
         case 4:
-            return 0;
-        case 5:
             return -1;
         default:
             printf("OPÇÃO INVALIDA");
+            return 0;
     }
-    return 0;
 }
